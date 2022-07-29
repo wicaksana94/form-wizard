@@ -63,6 +63,15 @@ export default {
         }
       });
     },
+    checkProps() {
+      return this.propsData;
+    },
+  },
+  mounted() {
+    const check = this.checkProps();
+    if (typeof check === "undefined") {
+      this.$router.push({ path: "/form" });
+    }
   },
 };
 </script>
