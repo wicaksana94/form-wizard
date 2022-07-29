@@ -1,5 +1,5 @@
 <template>
-  <div id="greeting">
+  <div id="greeting" class="fadein">
     <div class="greeting-container">
       <h1>Hello There!</h1>
       <p>Let's buy some insurance. It is going to take only a few steps</p>

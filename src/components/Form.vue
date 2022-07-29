@@ -1,5 +1,5 @@
 <template>
-  <div id="form">
+  <div id="form" class="fadein">
     <h2>Tell us about yourself</h2>
     <p class="label-form">Name</p>
     <input

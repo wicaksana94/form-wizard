@@ -1,5 +1,5 @@
 <template>
-  <div id="summary">
+  <div id="summary" class="fadein">
     <h1>Summary</h1>
     <h2>{{ propsData.name }}</h2>
     <p class="label-form">Name: {{ propsData.name }}</p>
