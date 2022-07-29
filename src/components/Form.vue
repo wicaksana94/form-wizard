@@ -113,8 +113,8 @@ export default {
   },
   methods: {
     onChangeHandler() {
-      this.totalPrice = this.calculatePrice();
       this.clickPackage(this.selectedPackage);
+      this.totalPrice = this.calculatePrice();
     },
     calculatePrice() {
       return (
