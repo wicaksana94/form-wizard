@@ -32,7 +32,7 @@ export default {
         showCancelButton: true,
         confirmButtonColor: "#3085d6",
         cancelButtonColor: "#d33",
-        confirmButtonText: "Back",
+        confirmButtonText: "Yes, back",
       }).then((result) => {
         if (result.isConfirmed) {
           this.$router.push({ path: "/form" });
