@@ -5,7 +5,7 @@ Hi! thanks for visit this solution file, I will explain **my solution**. The app
 
 # The Tech Stack
 
-I use **Vue.js** version 2.6.14 for the main framework. For styling, I use pure **CSS** inside the component scoped. To handle routing, I use **vue-router** version 3.5.1. I also use **sweetalert2** to make alert and confirmation popup looks good.
+I use **Vue.js** version 2.6.14 for the main framework. For styling, I use pure **CSS** inside the component scoped. To handle routing, I use **vue-router** version 3.5.1. I also use **sweetalert2** to make alert and confirmation popup looks good. I also add a little fade-in animation to bring "classy and eye catchy" experiences, I hope the user will like it!
 
 # The Approach
 
