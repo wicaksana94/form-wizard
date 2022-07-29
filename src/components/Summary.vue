@@ -48,6 +48,7 @@ export default {
         confirmButtonColor: "#3085d6",
         cancelButtonColor: "#d33",
         confirmButtonText: "Yes, buy!",
+        allowOutsideClick: false,
       }).then((result) => {
         if (result.isConfirmed) {
           this.$swal(
