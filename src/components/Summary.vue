@@ -54,7 +54,11 @@ export default {
             "Purchased!",
             "Your premium will be ready in 10 minutes. Please check your email.",
             "success"
-          );
+          ).then((result) => {
+            if (result.isConfirmed) {
+              this.$router.push({ path: "/" });
+            }
+          });
         }
       });
     },
